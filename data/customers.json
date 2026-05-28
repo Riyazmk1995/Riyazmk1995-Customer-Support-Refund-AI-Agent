@@ -1,0 +1,139 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-0101",
+      "account_status": "active",
+      "total_spent": 2450.00,
+      "orders": ["ORD-2024-001", "ORD-2024-002", "ORD-2024-003"]
+    },
+    {
+      "customer_id": "CUST002",
+      "name": "Sarah Johnson",
+      "email": "sarah.j@email.com",
+      "phone": "+1-555-0102",
+      "account_status": "active",
+      "total_spent": 1250.00,
+      "orders": ["ORD-2024-010", "ORD-2024-011"]
+    },
+    {
+      "customer_id": "CUST003",
+      "name": "Michael Brown",
+      "email": "mbrown@email.com",
+      "phone": "+1-555-0103",
+      "account_status": "active",
+      "total_spent": 3500.00,
+      "orders": ["ORD-2024-020", "ORD-2024-021", "ORD-2024-022"]
+    },
+    {
+      "customer_id": "CUST004",
+      "name": "Emily Davis",
+      "email": "emily.d@email.com",
+      "phone": "+1-555-0104",
+      "account_status": "active",
+      "total_spent": 890.50,
+      "orders": ["ORD-2024-030"]
+    },
+    {
+      "customer_id": "CUST005",
+      "name": "David Wilson",
+      "email": "d.wilson@email.com",
+      "phone": "+1-555-0105",
+      "account_status": "suspended",
+      "total_spent": 450.00,
+      "orders": ["ORD-2024-040"]
+    },
+    {
+      "customer_id": "CUST006",
+      "name": "Jessica Martinez",
+      "email": "j.martinez@email.com",
+      "phone": "+1-555-0106",
+      "account_status": "active",
+      "total_spent": 2100.00,
+      "orders": ["ORD-2024-050", "ORD-2024-051"]
+    },
+    {
+      "customer_id": "CUST007",
+      "name": "Robert Taylor",
+      "email": "r.taylor@email.com",
+      "phone": "+1-555-0107",
+      "account_status": "active",
+      "total_spent": 1800.00,
+      "orders": ["ORD-2024-060"]
+    },
+    {
+      "customer_id": "CUST008",
+      "name": "Amanda Garcia",
+      "email": "agarcia@email.com",
+      "phone": "+1-555-0108",
+      "account_status": "active",
+      "total_spent": 5200.00,
+      "orders": ["ORD-2024-070", "ORD-2024-071", "ORD-2024-072"]
+    },
+    {
+      "customer_id": "CUST009",
+      "name": "Chris Rodriguez",
+      "email": "c.rodriguez@email.com",
+      "phone": "+1-555-0109",
+      "account_status": "active",
+      "total_spent": 3100.00,
+      "orders": ["ORD-2024-080", "ORD-2024-081"]
+    },
+    {
+      "customer_id": "CUST010",
+      "name": "Lisa Anderson",
+      "email": "lisa.a@email.com",
+      "phone": "+1-555-0110",
+      "account_status": "active",
+      "total_spent": 950.00,
+      "orders": ["ORD-2024-090"]
+    },
+    {
+      "customer_id": "CUST011",
+      "name": "James Thomas",
+      "email": "j.thomas@email.com",
+      "phone": "+1-555-0111",
+      "account_status": "active",
+      "total_spent": 2200.00,
+      "orders": ["ORD-2024-100", "ORD-2024-101"]
+    },
+    {
+      "customer_id": "CUST012",
+      "name": "Patricia White",
+      "email": "p.white@email.com",
+      "phone": "+1-555-0112",
+      "account_status": "active",
+      "total_spent": 1500.00,
+      "orders": ["ORD-2024-110"]
+    },
+    {
+      "customer_id": "CUST013",
+      "name": "Daniel Hall",
+      "email": "d.hall@email.com",
+      "phone": "+1-555-0113",
+      "account_status": "active",
+      "total_spent": 4100.00,
+      "orders": ["ORD-2024-120", "ORD-2024-121"]
+    },
+    {
+      "customer_id": "CUST014",
+      "name": "Nancy Clark",
+      "email": "n.clark@email.com",
+      "phone": "+1-555-0114",
+      "account_status": "active",
+      "total_spent": 700.00,
+      "orders": ["ORD-2024-130"]
+    },
+    {
+      "customer_id": "CUST015",
+      "name": "Matthew Lewis",
+      "email": "m.lewis@email.com",
+      "phone": "+1-555-0115",
+      "account_status": "vip",
+      "total_spent": 8950.00,
+      "orders": ["ORD-2024-140", "ORD-2024-141", "ORD-2024-142"]
+    }
+  ]
+}

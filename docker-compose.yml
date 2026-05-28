@@ -1,0 +1,46 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: refund-agent-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/../data
+      - ./backend:/app
+    command: python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    networks:
+      - refund-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health', timeout=2)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    container_name: refund-agent-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://backend:8000
+      - STREAMLIT_SERVER_HEADLESS=true
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      backend:
+        condition: service_healthy
+    volumes:
+      - ./frontend:/app
+      - ./data:/app/data
+    networks:
+      - refund-network
+
+networks:
+  refund-network:
+    driver: bridge
