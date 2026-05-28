@@ -1,6 +1,6 @@
 # 🤖 AI Customer Support Refund Agent
 
-A fully containerized agentic system for processing e-commerce refunds with **dual-mode intelligence**: deterministic **Rule-Based Mode** and intelligent **LLM Mode** (powered by OpenAI GPT-3.5-turbo). Backed by FastAPI and Streamlit frontend.
+A fully containerized agentic system for processing e-commerce refunds with **dual-mode intelligence**: deterministic **Rule-Based Mode** and intelligent **LLM Mode** (powered by OpenAI GPT-3.5-turbo)
 
 ## 📋 Overview
 
@@ -59,7 +59,7 @@ Both modes are **always available** in your system and can be switched via UI or
 │  │  ┌─────────────────────────────────────────────────┐ │   │
 │  │  │ Mode 2: LLM-Based Logic (If API Key Present)   │ │   │
 │  │  │ - OpenAI GPT-3.5-turbo Analysis                │ │   │
-��  │  │ - Context-Aware Reasoning                      │ │   │
+│  │  │ - Context-Aware Reasoning                      │ │   │
 │  │  │ - Policy Validation Layer (Fallback)           │ │   │
 │  │  └─────────────────────────────────────────────────┘ │   │
 │  │  - Reasoning Logger (Unified)                       │   │
@@ -754,7 +754,8 @@ MIT License - Feel free to use for commercial or personal projects
 
 ## 👥 Contributors
 
-Created with ❤️ by the AI Development Team
+Created with ❤️ by Riyaz Khorasi - Gen AI Specialist - riyazkhorasi@gmail.com  
+LinkedIn: https://www.linkedin.com/in/riyazkhorasi/
 
 ---
 
